@@ -1,0 +1,22 @@
+.search_form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search :first-child {
+    margin-right: 10px;
+}
+
+.search {
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.search * {
+    padding: 5px;
+}
+
+.search input[type='submit'] {
+    padding: 5px 15px;
+}

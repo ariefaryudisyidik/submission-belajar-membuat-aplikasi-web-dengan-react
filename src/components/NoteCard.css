@@ -1,0 +1,51 @@
+.card {
+    border: solid;
+    margin: 5px auto 20px;
+    padding: 10px;
+}
+
+.card > * {
+    margin-bottom: 5px;
+}
+
+.card .button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .button button {
+    width: fit-content;
+    padding: 5px 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color .5s;
+}
+
+.card button.delete {
+    background-color: rgb(250, 9, 9);
+    color: white;
+}
+
+.card .button .archieve {
+    border: 1px solid;
+}
+
+.card .button .archieve:hover,
+.card .button .archieve:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.card .button .archieve:active {
+    border: 3px double #fff;
+}
+
+.card button.delete:hover {
+    background-color: darkred;
+}
+
+.card button.delete:active {
+    border: 1px solid #000;
+    background-color: #f00;
+}

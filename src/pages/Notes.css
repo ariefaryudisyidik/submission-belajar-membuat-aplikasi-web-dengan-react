@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#archieved {
+    margin-bottom: 10px;
+}
+
+#archieved button {
+    padding: 5px 10px;
+    border: solid;
+    font-size: 1.25rem;
+    border-radius: 15px;
+}
+
+#archieved button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#archieved button:active {
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+}
