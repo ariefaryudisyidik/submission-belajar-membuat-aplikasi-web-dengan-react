@@ -1,51 +1,53 @@
 .card {
-    border: solid;
-    margin: 5px auto 20px;
-    padding: 10px;
+  border: solid;
+  margin: 5px auto 20px;
+  padding: 10px;
 }
 
 .card > * {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .card .button {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  gap: 8px;
+  /* justify-content: space-between; */
 }
 
 .card .button button {
-    width: fit-content;
-    padding: 5px 8px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 10px;
-    transition: background-color .5s;
+  width: fit-content;
+  padding: 5px 8px;
+  margin-top: 10px;
+  border: none;
+  transition: background-color 0.5s;
 }
 
 .card button.delete {
-    background-color: rgb(250, 9, 9);
-    color: white;
+  background-color: rgb(250, 9, 9);
+  color: white;
 }
 
 .card .button .archieve {
-    border: 1px solid;
+  border: 1px solid;
 }
 
 .card .button .archieve:hover,
 .card .button .archieve:active {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
 .card .button .archieve:active {
-    border: 3px double #fff;
+  border: 3px double #fff;
 }
 
 .card button.delete:hover {
-    background-color: darkred;
+  background-color: darkred;
+  cursor: pointer;
 }
 
 .card button.delete:active {
-    border: 1px solid #000;
-    background-color: #f00;
+  border: 1px solid #000;
+  background-color: #f00;
 }

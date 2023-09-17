@@ -1,10 +1,7 @@
-import './App.css'
-import Notes from './pages/Notes'
+import Notes from './pages/Notes';
 
 function App() {
-  return (
-    <Notes />
-  )
+  return <Notes />;
 }
 
-export default App
+export default App;

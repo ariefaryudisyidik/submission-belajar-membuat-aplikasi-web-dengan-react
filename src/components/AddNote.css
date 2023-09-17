@@ -1,42 +1,42 @@
 form.add_note {
-    margin-bottom: 0;
-    border: solid;
-    padding: 10px 20px 20px;
-    min-width: 100%;
-    max-width: 100%;
+  margin-bottom: 0;
+  border: solid;
+  padding: 10px 20px 20px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .add_note *:not(h2) {
-    display: block;
-    width: 100%;
-    font-size: 1rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .add_note > div {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .add_note > div > :first-child {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .add_note textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .add_note input,
 .add_note textarea {
-    padding: 5px;
+  padding: 5px;
 }
 
 input[type='submit'] {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .warning {
-    color: #f00;
+  color: #f00;
 }
 
 #title_warning {
-    display: none;
+  display: none;
 }
